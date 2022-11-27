@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--Pink: hsl(322, 100%, 66%);
+--Light-Pink: hsl(321, 100%, 78%);
+--Light-Red: hsl(0, 100%, 63%);
+--Very-Dark-Cyan: hsl(192, 100%, 9%);
+--Very-Pale-Blue: hsl(207, 100%, 98%);
+--OpenSans-LetraComun: 'Open Sans', sans-serif;
+--Popins-Encabezados: 'Poppins', sans-serif;
+--wave-top: url("/src/images/bg-section-top-desktop-1.svg");
+--wave-bottom: url("/src/images/bg-section-bottom-desktop-1.svg");
+}
+
+/* VOY A PONER ESTILOS GENERALES */
+/* boton rosado */
+.cta{
+    width: 290px;
+    height: 55px;
+ 
+    background-color: var(--Pink);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--OpenSans-LetraComun);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.wave{
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100% 100px;
+}
+
+.wave__top{
+    background-image: var(--wave-top);
+}
+
+.wave__bottom{
+    background-image: var(--wave-bottom);
+}
+
+.wave__top2{
+    width: 100%;
+    height: 100px;
+    background-image: url("/src/images/bg-section-top-desktop-2.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100px;
+}
+
+.wave__bottom2{
+    width: 100%;
+    height: 100px;
+    background-image: url("/src/images/bg-section-bottom-desktop-2.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100px;
+}
+
+.wave__top-footer{
+    background-image: url("/src/images/bg-footer-top-desktop.svg");
+}
+
+/* NAVBAR COMPLETO */
+.nav{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* IMAGEN DEL LOGO  */
+.nav__figure{
+    width: 200px;
+    height: 40px;
+}
+
+.nav__logo{
+    width: 100%;
+    height: 100%;
+}
+
+/* BOTON DEL TRY FREE  */
+.nav__try__free{
+    text-decoration: none;
+    color: var(--Pink);
+    border: 2px solid var(--Pink);
+    padding: 5px 30px;
+    border-radius: 50px;
+}
+
+
+/* PASAMOS A LA SESSION DEL MAIN */
+.main{
+    margin-top: 150px;
+}
+
+.main__section{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__title{
+    font-size: 2.7rem;
+    color: var(--Very-Dark-Cyan);
+    font-family: var(--Popins-Encabezados);
+    margin-bottom: 10px;
+}
+
+.main__paragraph{
+    width: 490px;
+    font-family: var(--OpenSans-LetraComun);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main__figure{
+    width: 80%;
+}
+
+.main__img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* PASAMOS A OTRA SECCION DE NUMBER */
+
+.numbers__content{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color:snow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.number__figure{
+    width: 40%;
+}
+
+.number__img{
+    width: 100%;
+    height: 100%;
+}
+
+.number__title{
+    font-size: 4rem;
+    color:var(--Very-Dark-Cyan);
+    font-family:var(--OpenSans-LetraComun);
+}
+
+.number__paragraph{
+    font-family:var(--OpenSans-LetraComun);
+    color: #8A8E96;
+    text-align: center;
+}
+
+
+/* PASAMOS A OTRA SESSION DE INFO */
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info__figure{
+    width: 30%;
+}
+
+.info__img{
+    width: 100%;
+    height: 100%;
+}
+
+.info__title{
+    font-family:var(--Popins-Encabezados);
+    color: var(--Very-Dark-Cyan);
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.info__paragraph{
+    width: 450px;
+    font-family: var(--OpenSans-LetraComun);
+}
+
+/* PASO A OTRA SESSION DE ARTICULOS TWO */
+.articulos__one{
+    background-color: #F6FBFF;
+}
+
+.articulos__two{
+    background-color: #fff;
+}
+
+.articulos__three{
+    background-color: #F6FBFF;
+}
+
+.info__one{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 90px;
+    background-color: #fff;
+    margin-top: 150px;
+}
+
+.info__paragraphOne{
+    width: 530px;
+    font-family: var(--OpenSans-LetraComun);
+}
+
+/* PASO A LA SESSION DE BUILD COMMUNITY */
+
+
+.build__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+.build__title{
+    font-size: 1.7rem;
+    font-family: var(--Popins-Encabezados);
+    color: var(--Very-Dark-Cyan);
+    margin-bottom: 16px;
+}
+
+/* ULTIMA SESSION DE FOOTER */
+.footer{
+    width: 100%;
+    background-color: var(--Very-Dark-Cyan);
+    padding: 50px 0;
+}
+
+.footer__content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image__texts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer__figure{
+    width: 70%;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.footer__img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer__paragraph{
+    width: 330px;
+    color: #fff;
+    font-family: var(--OpenSans-LetraComun);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.icons__content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.footer__paragrapsh{
+    color: #fff;
+    font-family: var(--OpenSans-LetraComun);
+    margin-left: 15px;
+}
+
+.content__icons{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.article__title{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: var(--OpenSans-LetraComun);
+    margin-bottom: 15px;
+}
+
+.article__paragraph{
+    width: 360px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.text{
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.form__button{
+    background-color: var(--Pink);
+    color: #fff;
+    border: none;
+    padding: 9px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icons{
+    max-width: 570px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 15px;
+}
